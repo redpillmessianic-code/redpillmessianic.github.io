@@ -1,25 +1,33 @@
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background: #fff9f3;
-  color: #333;
+  background: #ffffff;
+  color: #222;
 }
 header {
-  background: #2e2e2e;
+  background: #000000;
   color: white;
   padding: 1rem;
   text-align: center;
 }
+header h1 {
+  font-size: 2rem;
+}
+header h1 span {
+  color: #ff3333;
+}
 header nav a {
-  color: #f8e9a1;
+  color: #ffffff;
   margin: 0 1rem;
   text-decoration: none;
+  font-weight: bold;
 }
 .hero {
   text-align: center;
   padding: 2rem 1rem;
-  background: #f8e9a1;
+  background: #f4f4f4;
 }
 .blog-preview, main ul {
   padding: 1rem 2rem;
@@ -30,5 +38,5 @@ footer {
   background: #eee;
 }
 a {
-  color: #2c5282;
+  color: #b30000;
 }
