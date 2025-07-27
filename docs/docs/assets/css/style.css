@@ -1,0 +1,21 @@
+
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background: #fff;
+  color: #111;
+}
+a {
+  color: #b30000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  color: #b30000;
+}
+.scripture {
+  color: #b30000;
+  font-style: italic;
+}
