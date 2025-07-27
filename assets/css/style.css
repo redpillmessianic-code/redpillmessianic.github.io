@@ -40,3 +40,30 @@ footer {
 a {
   color: #b30000;
 }
+.categories {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-left: 4px solid #b30000;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+.categories h2 {
+  color: #b30000;
+}
+.categories ul {
+  list-style: none;
+  padding-left: 0;
+}
+.categories li {
+  margin: 0.5rem 0;
+}
+.categories a {
+  color: #222;
+  text-decoration: none;
+}
+.categories a:hover {
+  text-decoration: underline;
+  color: #b30000;
+}
+
